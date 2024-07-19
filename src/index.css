@@ -1,19 +1,20 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Poppins", sans-serif;
   background-color: #f6f6f6;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  gap: 2em;
   padding: 1em;
   background-color: black;
   max-width: 100%;
@@ -22,18 +23,23 @@ header {
 }
 
 header img {
-  width: 100px;
-
-  flex-basis: 10%;
+  width: 8em;
+  height: 8em;
+  /* flex-basis: 10%; */
 }
 
 header h1 {
   flex-grow: 1;
   color: white;
-  font-size: 3em;
+  font-size: 2.4em;
   font-weight: 700;
   align-items: center;
   text-align: center;
+}
+
+
+.home-h1{
+  
   margin-right: 3.2em;
 }
 
@@ -43,7 +49,6 @@ main {
 }
 
 /* Panels */
-
 .action-panel,
 .output-panel {
   line-height: 1.4em;
@@ -75,7 +80,6 @@ main {
 }
 
 /* text */
-
 h2 {
   text-align: center;
   font-weight: 400;
@@ -99,7 +103,6 @@ p.tag-line {
 }
 
 /* controls */
-
 form {
   display: flex;
   flex-direction: column;
@@ -130,7 +133,6 @@ input[type="text"] {
 }
 
 /* Buttons */
-
 .add-ticker-btn {
   display: flex;
   width: 100%;
@@ -170,7 +172,6 @@ input[type="text"] {
 }
 
 /* ticker display (ensure comma separated) */
-
 .ticker {
   margin: 0 0.1em;
   content: "";
@@ -185,7 +186,6 @@ input[type="text"] {
 }
 
 /* footer */
-
 footer {
   margin-top: 10em;
   font-size: 14px;
@@ -202,14 +202,13 @@ footer {
 }
 
 /* crypto reports */
-
 .crypto-data-container {
   background-color: #3de675;
   padding: 20px;
   color: whitesmoke;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 80%;
+  width: 100%;
 }
 
 .crypto-data-container h2 {
@@ -243,12 +242,10 @@ footer {
   display: flex;
   align-items: center;
 }
-.color {
-  color: red;
-}
+
+
 
 /* responsive */
-
 @media (max-width: 768px) {
   .form-input-control {
     width: 100%;
@@ -260,11 +257,15 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
-  margin: 2.4em 1em;
+  margin: 2.4em 4em;
+
+
+  
 }
 
 .crypto-data-section {
   margin: 4em;
+  flex: 1;
 }
 
 .report-section {
@@ -325,4 +326,124 @@ footer {
   color: red;
   font-size: 2em;
   font-weight: bold;
+}
+
+/* responsive */
+
+
+@media (max-width: 1023px) {
+  header img {
+    width: 20%;
+    flex-basis: 10%;
+  }
+
+  header h1 {
+    flex-grow: 1;
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  .add-ticker-btn {
+    width: fit-content;
+    flex-basis: 20%;
+  }
+}
+
+@media (max-width: 940px) {
+  .form-input-control {
+    width: 100%;
+  }
+
+  .crypto-data-panel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .crypto-data-section, .report-section {
+    margin: 2em 0;
+    width: 100%;
+  }
+  
+
+  .crypto-data-container {
+  background-color: #3de675;
+  padding: 20px;
+  color: whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.crypto-data-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.crypto-data-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.crypto-data-label {
+  font-weight: bold;
+}
+
+.crypto-data-value {
+  color: #033014;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.crypto-data-row:last-child {
+  border-bottom: none;
+}
+.crypto-data-average {
+  color: red;
+  font-size: 1.4em;
+  
+}
+
+  .report-section h2 {
+    color: #4caf50;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .report-section p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 550px) {
+  header {
+    gap: 1em;
+  }
+
+  header img {
+    width: 20%;
+    height: 90%;
+    flex-basis: 10%;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  header button {
+    flex-basis: 20%;
+  }
+
+
+
+.crypto-data-panel {
+  
+  margin: 2.4em 1em;
+
+}
+  
 }

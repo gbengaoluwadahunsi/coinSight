@@ -17,7 +17,7 @@ function getDateNDaysAgo(n) {
 }
 
 const dates = {
-  startDate: getDateNDaysAgo(3),
+  startDate: getDateNDaysAgo(4),
   endDate: getDateNDaysAgo(1),
 };
 
@@ -73,11 +73,11 @@ const ActionPanel = ({ clicked, setReportPage, setClicked }) => {
       {
         role: "system",
         content:
-          "You are a crypto guru. Given data on share prices over the past 3 days, write a report of no more than 150 words describing the crypto performance and recommending whether to buy, hold or sell.",
+          "You are a crypto guru. Given data on share prices over the past 3 days, write a report of no more than 100 words describing the crypto performance and recommending whether to buy, hold or sell.",
       },
       {
         role: "user",
-        content: JSON.stringify(cryptoData),
+    content: `${JSON.stringify(cryptoData)}`,
       },
     ];
 
@@ -93,6 +93,7 @@ const ActionPanel = ({ clicked, setReportPage, setClicked }) => {
           body: JSON.stringify({
             model: "llama3-8b-8192",
             messages: messages,
+            temperature: 1.1
           }),
         }
       );

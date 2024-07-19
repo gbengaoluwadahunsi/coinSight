@@ -11,7 +11,7 @@ const Header = ({ reportPage, setReportPage, setClicked }) => {
     <>
       <header>
         <img src={logo} className="logo" alt="CoinSight Crypto Predictions" />
-        <h1>COINSIGHT</h1>
+        <h1 className= {!reportPage ? "home-h1" : ""}>COINSIGHT</h1>
         {reportPage && (
           <button style={{ cursor: "pointer" }} onClick={handleClick}>
             {" "}

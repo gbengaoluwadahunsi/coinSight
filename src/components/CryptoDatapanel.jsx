@@ -28,11 +28,12 @@ const CryptoDataPanel = ({ data, report }) => {
     return output.map((dataItem) => {
       const name = dataItem.ticker.slice(2); // Slice off the prefix "X:"
       const cryptoName = coinList[name] || name; // Get the cryptocurrency name or use ticker itself
+      console.log(dataItem.results);
 
       return (
         <div
           key={dataItem.ticker}
-          style={{ border: "1px solid black", padding: "10px", margin: "2em" }}
+          style={{ border: "1px solid black", padding: "10px" }}
         >
           <div className="crypto-data-header">
             <h2>Cryptocurrency Data for</h2>
