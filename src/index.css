@@ -97,6 +97,7 @@ p.tag-line {
   display: flex;
   align-items: center;
   height: 3em;
+ 
 }
 
 /* controls */
@@ -140,6 +141,8 @@ input[type="text"] {
   border: none;
   padding: 1em 0;
   width: 100%;
+  background-color: #fff;
+ 
  
  
 }
@@ -365,6 +368,10 @@ footer {
 @media (max-width: 940px) {
   .form-input-control {
     width: 100%;
+  }
+
+  label{
+    font-size: 1em;
   }
 
   .generate-report-btn{
