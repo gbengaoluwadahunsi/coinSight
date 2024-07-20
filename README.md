@@ -23,18 +23,18 @@ CoinSight is a dynamic cryptocurrency tracking application that allows users to 
 ## **Installation**
 
 1. Clone the repository:
-  ** git clone https://github.com/gbengaoluwadahunsi/coinSight.git**
-  **cd coinSight**
+** git clone https://github.com/gbengaoluwadahunsi/coinSight.git**
+**cd coinSight**
 
 2. Install dependencies:
-  **npm install**
+**npm install**
   
 3. Set up environment variables:
-  ** VITE_POLYGON_API_KEY=your_polygon_api_key**
-  **VITE_GROQ_API_KEY=your_groq_api_key**
+** VITE_POLYGON_API_KEY=your_polygon_api_key**
+**VITE_GROQ_API_KEY=your_groq_api_key**
 
 4. Run the application:
-  **npm run dev*8
+**npm run dev**
 
 ## **Usage**
 
@@ -44,7 +44,7 @@ CoinSight is a dynamic cryptocurrency tracking application that allows users to 
   
 2. Generate Report:
 * Click "Generate Report" to fetch the latest data and generate a financial report.
-*The app will display the data and the AI-generated report side by side.
+* The app will display the data and the AI-generated report side by side.
 
 ## **Technologies Used**
 
@@ -54,7 +54,7 @@ CoinSight is a dynamic cryptocurrency tracking application that allows users to 
 * Build Tool: Vite
 
 ## **Contributing**
-*I welcome contributions to CoinSight! Please follow these steps:
+* I welcome contributions to CoinSight! Please follow these steps:
 
 1. Fork the repository.
 
@@ -62,10 +62,10 @@ CoinSight is a dynamic cryptocurrency tracking application that allows users to 
   **git checkout -b feature-name**
     
 3. Commit your changes:
-  **git commit -m 'Add new feature'**
+**git commit -m 'Add new feature'**
   
 4. Push to the branch:
-  **git push origin feature-name**
+**git push origin feature-name**
     
 5. Create a pull request.
 
