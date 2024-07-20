@@ -28,7 +28,7 @@ const CryptoDataPanel = ({ data, report }) => {
     return output.map((dataItem) => {
       const name = dataItem.ticker.slice(2); // Slice off the prefix "X:"
       const cryptoName = coinList[name] || name; // Get the cryptocurrency name or use ticker itself
-      console.log(dataItem.results);
+      
 
       return (
         <div
