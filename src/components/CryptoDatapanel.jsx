@@ -33,7 +33,7 @@ const CryptoDataPanel = ({ data, report }) => {
       return (
         <div
           key={dataItem.ticker}
-          style={{ border: "1px solid black", padding: "10px" }}
+          style={{ border: "1px solid black", padding: "10px" , marginTop: "2.8em" }}
         >
           <div className="crypto-data-header">
             <h2>Cryptocurrency Data for</h2>

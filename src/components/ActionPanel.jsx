@@ -116,29 +116,31 @@ const ActionPanel = ({ clicked, setReportPage, setClicked }) => {
               report:
             </label>
             <div className="form-input-control">
-              <select id="ticker-select">
-                <option value="">Select a ticker...</option>
-                <option value="BTCUSD">BTC - Bitcoin</option>
-                <option value="ETHUSD">ETH - Ethereum</option>
-                <option value="BNBUSD">BNB - Binance Coin</option>
-                <option value="USDTUSD">USDT - Tether</option>
-                <option value="ADAUSD">ADA - Cardano</option>
-                <option value="XRPUSD">XRP - Ripple</option>
-                <option value="DOGEUSD">DOGE - Dogecoin</option>
-                <option value="DOTUSD">DOT - Polkadot</option>
-                <option value="USDCUSD">USDC - USD Coin</option>
-                <option value="UNIUSD">UNI - Uniswap</option>
-                <option value="BCHUSD">BCH - Bitcoin Cash</option>
-                <option value="LTCUSD">LTC - Litecoin</option>
-                <option value="LINKUSD">LINK - Chainlink</option>
-                <option value="SOLUSD">SOL - Solana</option>
-                <option value="MATICUSD">MATIC - Polygon</option>
-                <option value="XLMUSD">XLM - Stellar</option>
-                <option value="VETUSD">VET - VeChain</option>
-                <option value="THETAUSD">THETA - Theta</option>
-                <option value="FILUSD">FIL - Filecoin</option>
-                <option value="TRXUSD">TRX - TRON</option>
-              </select>
+              <div className="ticker-select-container">
+                <select id="ticker-select">
+                  <option value="">Select a ticker...</option>
+                  <option value="BTCUSD">BTC - Bitcoin</option>
+                  <option value="ETHUSD">ETH - Ethereum</option>
+                  <option value="BNBUSD">BNB - Binance Coin</option>
+                  <option value="USDTUSD">USDT - Tether</option>
+                  <option value="ADAUSD">ADA - Cardano</option>
+                  <option value="XRPUSD">XRP - Ripple</option>
+                  <option value="DOGEUSD">DOGE - Dogecoin</option>
+                  <option value="DOTUSD">DOT - Polkadot</option>
+                  <option value="USDCUSD">USDC - USD Coin</option>
+                  <option value="UNIUSD">UNI - Uniswap</option>
+                  <option value="BCHUSD">BCH - Bitcoin Cash</option>
+                  <option value="LTCUSD">LTC - Litecoin</option>
+                  <option value="LINKUSD">LINK - Chainlink</option>
+                  <option value="SOLUSD">SOL - Solana</option>
+                  <option value="MATICUSD">MATIC - Polygon</option>
+                  <option value="XLMUSD">XLM - Stellar</option>
+                  <option value="VETUSD">VET - VeChain</option>
+                  <option value="THETAUSD">THETA - Theta</option>
+                  <option value="FILUSD">FIL - Filecoin</option>
+                  <option value="TRXUSD">TRX - TRON</option>
+                </select>
+              </div>
               <button
                 className="add-ticker-btn"
                 type="button"
