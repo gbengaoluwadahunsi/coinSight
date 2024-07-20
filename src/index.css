@@ -37,6 +37,16 @@ header h1 {
   text-align: center;
 }
 
+header button{
+  
+  
+  font-size: 1em;
+  font-weight: 700;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5px;
+  cursor: pointer
+}
 
 
 
@@ -373,6 +383,8 @@ footer {
     width: 100%;
   }
 
+ 
+
   label{
     font-size: 1em;
   }
@@ -389,6 +401,10 @@ footer {
   .crypto-data-section, .report-section {
     margin: 2em 0;
     width: 100%;
+  }
+
+  .crypto-data-title{
+    font-size: 80%;
   }
   
 
@@ -467,7 +483,16 @@ footer {
 
   header button {
     flex-basis: 20%;
+    font-size: 0.8em;
+    font-weight: 200;
+    padding: 0.2em;
+    border-radius: 5px;
+    cursor: pointer
+   
   }
+
+
+
 
 
 
