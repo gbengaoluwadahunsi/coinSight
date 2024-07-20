@@ -1,4 +1,4 @@
-####### **CoinSight**
+# **CoinSight**
 
 CoinSight is a dynamic cryptocurrency tracking application that allows users to monitor and analyze real-time crypto market data. Leveraging Polygon.io API and Groq's AI capabilities, CoinSight provides insightful financial reports and recommendations for various cryptocurrencies.
 
