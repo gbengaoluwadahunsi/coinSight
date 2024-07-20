@@ -122,6 +122,7 @@ label {
 
 form select {
   flex: 1;
+  
 }
 
 input[type="text"] {
@@ -138,10 +139,11 @@ input[type="text"] {
   align-items: center;
 }
 #ticker-select{
-  border: none;
+  outline : none;
   padding: 1em 0;
   width: 100%;
   background-color: #fff;
+  border: none;
  
  
  
@@ -314,11 +316,12 @@ footer {
   text-align: center;
 }
 
-.crypto-name {
+#crypto-name {
   color: orange;
   font-size: 2em;
   font-weight: bold;
 }
+
 
 .crypto-data-container {
   margin-top: 10px;
@@ -419,6 +422,11 @@ footer {
   color: #033014;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+#crypto-name {
+  font-size: 1.5em;
+  
 }
 
 .crypto-data-row:last-child {

@@ -38,7 +38,7 @@ const CryptoDataPanel = ({ data, report }) => {
           <div className="crypto-data-header">
             <h2>Cryptocurrency Data for</h2>
             <h2
-              style={{ color: "orange", fontSize: "2em", fontWeight: "bold" }}
+              
               id="crypto-name"
             >
               {cryptoName}
