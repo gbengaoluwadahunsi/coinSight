@@ -1,8 +1,8 @@
-CoinSight
+####CoinSight
 
 CoinSight is a dynamic cryptocurrency tracking application that allows users to monitor and analyze real-time crypto market data. Leveraging Polygon.io API and Groq's AI capabilities, CoinSight provides insightful financial reports and recommendations for various cryptocurrencies.
 
-Table of Contents
+##Table of Contents
 * Features
 * Installation
 * Usage
@@ -13,14 +13,14 @@ Table of Contents
 * Contact
   
 
-Features
+##Features
 * Real-Time Data Fetching: Get the latest cryptocurrency data from Polygon.io.
 * AI-Powered Reports: Generate financial reports using Groq's AI.
 * Dynamic Visualization: Display data and reports side by side.
 * User-Friendly Interface: Easy navigation and interaction for a seamless experience.
 
 
-Installation
+##Installation
 
 1. Clone the repository:
   - git clone https://github.com/gbengaoluwadahunsi/coinSight.git
@@ -36,7 +36,7 @@ Installation
 4. Run the application:
   - npm run dev
 
-Usage
+##Usage
 
 1. Select Cryptocurrency Tickers:
 * Use the dropdown menu to select one or more cryptocurrency tickers.
@@ -46,14 +46,14 @@ Usage
 * Click "Generate Report" to fetch the latest data and generate a financial report.
 *The app will display the data and the AI-generated report side by side.
 
-Technologies Used
+##Technologies Used
 
 * Frontend: React, Vite
 * Styling: Tailwind CSS
 * API Integration: Polygon.io, Groq AI
 * Build Tool: Vite
 
-Contributing
+##Contributing
 *I welcome contributions to CoinSight! Please follow these steps:
 
 1. Fork the repository.
@@ -69,10 +69,10 @@ Contributing
     
 5. Create a pull request.
 
-License
+##License
 * This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+##Contact
 * For any questions or suggestions, feel free to reach out:
 
 Email:gbengaoluwadahunsi01@gmail.com
