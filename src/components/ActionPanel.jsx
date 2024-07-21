@@ -37,6 +37,10 @@ const ActionPanel = ({ clicked, setReportPage, setClicked }) => {
     }
   };
 
+  const handleClearTickers = () => {
+    setTickersArr([]);
+  };
+
   const handleGenerateReport = async () => {
     setLoading(true);
     setClicked(true);
@@ -147,6 +151,13 @@ const ActionPanel = ({ clicked, setReportPage, setClicked }) => {
                 onClick={handleAddTicker}
               >
                 Add Ticker
+              </button>
+              <button
+                className="clear-ticker-btn"
+                type="button"
+                onClick={handleClearTickers}
+              >
+                Clear
               </button>
             </div>
           </form>

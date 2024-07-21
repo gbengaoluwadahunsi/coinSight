@@ -180,6 +180,24 @@ input[type="text"] {
   width: 14px;
 }
 
+.clear-ticker-btn{
+  display: flex;
+  width: 80%;
+  align-items: center;
+ border-radius: 5px;
+ box-shadow: #033014;
+  font-size: 1.2em;
+  padding: 0.2em 1em;
+  cursor: pointer;
+  flex-basis: 20%;
+
+}
+
+.clear-ticker-btn:hover {
+  background-color: #033014;
+  color: #fff;
+}
+
 .generate-report-btn {
   padding: 0.8em 1em;
   cursor: pointer;
@@ -506,6 +524,13 @@ footer {
   
   font-size: .9em;
   
+}
+.clear-ticker-btn
+ {
+  font-size: .9em;
+  padding : 0.8em;
+  border-radius: 5px;
+
 }
 
 }
